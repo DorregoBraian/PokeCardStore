@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap (Carrusel) -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <!--CDN de Vue, version de desarrollo -->
+    <script src="https://unpkg.com/vue@next"></script>
+    <script src="https://unpkg.com/vuex@4.1.0/dist/vuex.global.js"></script>
+
+    <!-- Estilos CSS -->
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/header-y-footer.css">
+    <link rel="stylesheet" href="/css/pokemones.css">
+    <link rel="stylesheet" href="/css/pokemon.css">
+    <link rel="stylesheet" href="/css/formulario.css">
+
+    <title>PokeCard</title>
+</head>
+
+<body>
+    <div id="app">
+        <header id="header">
+            <img src="/Img/Logo Poke Card.png" alt="">
+            <img id="titulo" src="/Img/Titulo.png" alt="">
+            <nav>
+                <a href="" @click.prevent="cambiarComponente('inicio')">Inicio</a>
+                <a href="" @click.prevent="cambiarComponente('pokemones')">Pokemones</a>
+                <a href="" @click.prevent="cambiarComponente('formulario')">Formulario</a>
+                <a href="">Contactos</a>
+            </nav>
+        </header>
+        <hr>
+        <main id="main">
+            <div v-show="inicio_visible">
+                <inicio></inicio>
+            </div>
+            <div v-show="pokemones_visible">
+                <pokemones :regiones="regiones" :tipos="tipos" :colores="colores"
+                    @seleccionar-pokemon="cambiarComponente"></pokemones>
+            </div>
+            <div v-show="pokemon_data_visible">
+                <pokemon_data_vue :nombre="pokemonSeleccionado"></pokemon_data_vue>
+            </div>
+            <div v-show="formulario_visible">
+                <formulario></formulario>
+            </div>
+        </main>
+        <hr>
+        <footer>
+            <section id="footer-links">
+                <article>
+                    <a href="#" class="footer-a">Mi Cuenta</a>
+                    <a href="#" class="footer-a">Historial</a>
+                    <a href="#" class="footer-a">Favoritos</a>
+                    <a href="#" class="footer-a">Categorias</a>
+                    <a href="#" class="footer-a">Ayuda</a>
+                </article>
+                <article>
+                    <a href="#" class="footer-a">Mis Compras</a>
+                    <a href="#" class="footer-a">Ofertas</a>
+                    <a href="#" class="footer-a">Tiendas Oficiales</a>
+                    <a href="#" class="footer-a">Poke Puntos</a>
+                    <a href="#" class="footer-a">Vender</a>
+                </article>
+            </section>
+            <hr>
+            <section id="footer-redes">
+                <article>
+                    <img src="/Img/facebook-icon.png" alt="">
+                    <a href="https://www.facebook.com/" class="footer-r">Facebook</a>
+                </article>
+                <article>
+                    <img src="/Img/instagram_icon.png" alt="">
+                    <a href="https://www.instagram.com/" class="footer-r">Instagram</a>
+                </article>
+                <article>
+                    <img src="/Img/whatsapp.png" alt="">
+                    <a href="https://web.whatsapp.com/" class="footer-r">Whatsapp</a>
+                </article>
+                <article>
+                    <img src="/Img/telegram_icon.png" alt="">
+                    <a href="https://web.telegram.org/" class="footer-r">Telegram</a>
+                </article>
+                <article>
+                    <img src="/Img/twitter-icon.png" alt="">
+                    <a href="https://twitter.com" class="footer-r">Twitter</a>
+                </article>
+                <article>
+                    <img src="/Img/youtube.png" alt="">
+                    <a href="https://www.youtube.com/" class="footer-r">YouTube</a>
+                </article>
+                <article>
+                    <img src="/Img/google-icon.png" alt="">
+                    <a href="https://www.google.com/" class="footer-r">Gmail</a>
+                </article>
+            </section>
+        </footer>
+    </div>
+
+    <!-- Script de JQuery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
+    <script src="./Js/script.js" type="module"></script>
+
+    <!-- Script de Vue -->
+    <!--<script src="./Js/vue.js" type="module"></script>
+    <script src="./Js/components_vue.js"></script>-->
+
+</body>
+</html>

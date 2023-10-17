@@ -1,0 +1,75 @@
+:root {
+    --MainColorOrange: rgb(238, 131, 41);
+    --SecundaryColorRed: rgb(230, 65, 16);
+    --SecundaryColorDarkRed: rgb(205, 82, 65);
+    --SecundaryColorBlue: rgb(8, 65, 82);
+    --SecundaryColorYellow: rgb(238, 222, 123);
+    --SecundaryColorLightBlue: rgb(32, 115, 148);
+
+    --backgroundMain: rgb(235, 235, 235);
+    --backgroundCards: rgb(255, 255, 255);
+}
+
+main {
+    background-color: var(--backgroundMain);
+}
+
+#carouselExampleAutoplaying {
+    width: 55%;
+    margin: 2% 0% 2% 25%;
+    border: 50px solid var(--SecundaryColorRed);
+    border-radius: 10%;
+
+}
+
+.carousel-control-next-icon {
+    background-color: black;
+}
+
+.carousel-control-prev-icon {
+    background-color: black
+}
+
+.main-article {
+    border: 20px solid var(--MainColorOrange);
+    border-radius: 5%;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-top: 3%;
+    padding-bottom: 30%;
+}
+
+.main-article2 {
+    border: 20px solid var(--MainColorOrange);
+    border-radius: 5%;
+    width: 100%;
+    height: 450px;
+    display: flex;
+    margin-top: 3%;
+    padding-bottom: 30%;
+
+}
+
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    border: 30px solid var(--SecundaryColorRed);
+    border-radius: 10%;
+    background: var(--MainColorOrange);
+
+}
+
+.main-section h3 {
+    position: absolute;
+
+}
+
+#card-pokemon {
+    display: flex;
+}
+
+.card {
+    height: 395px;
+}

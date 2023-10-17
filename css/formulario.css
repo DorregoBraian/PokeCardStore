@@ -1,0 +1,98 @@
+:root {
+    --MainColorOrange: rgb(238, 131, 41);
+    --SecundaryColorRed: rgb(230, 65, 16);
+    --SecundaryColorDarkRed: rgb(205, 82, 65);
+    --SecundaryColorBlue: rgb(8, 65, 82);
+    --SecundaryColorYellow: rgb(238, 222, 123);
+    --SecundaryColorLightBlue: rgb(32, 115, 148);
+
+    --backgroundMain: rgb(235, 235, 235);
+    --backgroundCards: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--backgroundMain);
+
+}
+
+.section-from {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente */
+    align-items: center;
+    /* Centra verticalmente */
+    height: 70vh;
+    /* Asegura que el contenedor ocupe toda la altura de la ventana */
+}
+
+h3 {
+    font-size: 230%;
+    text-align: center;
+}
+
+form {
+    border: 30px solid var(--SecundaryColorRed);
+    border-radius: 10%;
+    background: var(--SecundaryColorYellow);
+    padding: 1%;
+
+}
+
+input {
+    font-size: 100%;
+    margin: 2%;
+    padding: 1%;
+    background: var(--MainColorOrange);
+    text-align: start;
+}
+
+input::placeholder {
+    color: black;
+    position: absolute;
+    top: 0;
+}
+
+.section-botones {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 5%;
+}
+
+button {
+    font-size: 130%;
+    padding: 1%;
+    border-radius: 15%;
+    background: var(--MainColorOrange);
+}
+
+#mensaje {
+    width: 70%;
+    padding-bottom: 200px;
+
+}
+
+
+
+#alert-pokemon {
+    position: absolute;
+    display: flex;
+    width: 35%;
+    background: rgb(18, 161, 240);
+    border: solid red;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+#alert-pokemon img {
+    margin: 2%;
+    width: 30%;
+    border: solid red;
+}
+
+#alert-pokemon h3 {
+    margin: 2%;
+
+}

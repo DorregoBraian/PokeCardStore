@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "cartaspokemon",
+  "private_key_id": "22de1825a7de9b2a9301ab0ebd9b743f2fe30e6b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDHckjisCtlQ+t6\nY7Eyl6EsHv6iO+i7yPBlBfP6+2nt63Ku8V4qRBSommuccxY+r3zFsCH4Na8JmzKW\nrqAJU0n1nDCEo42EKau24JKqceltfQMMdl0IvAyjj1TwV7N0det8MZpJ9QjfoCXH\n6fO2D9CDyLIXkASjSxvthS9WXZexR+tYE7tWcHSDPIT06rVXcU89DOLIrsPwabxS\nKqEBTNtUjsCBAznZAoAqvxO38gbtyZ7m/WeFDrqQWuFCCDZ9l0URcXYSdMi9m4wd\nk2yj4nRAq5siFvHLyhRL1PemfEgYIQrA8NHu3Ip3z8KmRH+Jy34GfGHcYAHAtSbe\nKs2ASdkLAgMBAAECggEAGfZLfI64J2du+LCPeWl5hnfGZ7Hqur8OY+gheVNO17Sl\nahZrTo8sLUJkranhhGltkYI6+cdrMJHuROUYWf5oizs4qZtsqX6PJrAXB27qluEG\nC5JAzAlGj+fxg5O2/Xr4G2ONlQD7lbiQEnTmz5VBbFYssJqDsAnv6bxDjDeEroPW\nE6g1IkorYQt9DXaAKU5XL9INEH2L0kGlzb0MkaI4+GIQTGFzChKwKGjWfAkJtHIk\n/WCCUzUQ7g9nhFuUHX+P9bDznsE7bw6eJwVuxjSrcDCBNSV2rW3HheMMe8SoUK46\nIPQiTiEAfLgcFrH3kJJW6tBEUTmKuxVcgO97NqSa4QKBgQD3F+kh7GkI0ig6QlIl\nzxByFri8rGBFJfMRFOXpsQt/gXcBv7/LW6nOqImO1ZBf/cCs9+hNjny0gc17SDLT\nGWLVt7r60biQMfXUGvPorrYQctYQDpLrf0XCLCYZOiyR9XTKBZTAyVLHJFFhHzXG\n2Cj9ioh0L+OuZrXHD3prT5anWwKBgQDOorRu6Fq7v0bxVayHBCWsQvMLt5Ss1FJ6\nKhFNg5sI+9fG9r7fbMKV3j6OArbxdqgBZwpOsjMxkKC8fyg6Ca4DtBH3le7WzNLY\nR6eIplvIk2jugP7afXn/2e1GWNTyBYxzK5Ua1NY8RIBtYvxonab1XI8JclV/DgOW\neTIx0DL0EQKBgQDvXzGRlJYYXodsEQ3F5PfYnpxu40sMEfyMgsNMhiBOcJxajGkA\nV5eERY+lWM1ZwNjkd/GLGMtEjy8CDGp4SPKPekNgcsUqo8uzpDzAIGjuPGGWAphg\nHdb1iZGLBOliqPhwMcHuldpkY5GW1gZh0My8+nTAohgevw/AfQUqalrXWwKBgQCs\nceKMsEKQbpfg7fPWlaJu+UxmGeXsuiC+rP7VpqAqxioUdHVkdhqKAfhIgYF1T+Xz\nja9vb44DrkRGKwRCMzPTCWL5MVoqTrMjJeFtzA/K+yJV8Lc/VfoLiC5ZR+cmt3S3\n5MZBpx/HGg/nufUVxYPBPmZspsstBl/+ItS995eeUQKBgEnHdV+QisA57R6xaJ/m\nk7/G80+vpZoYOCWZdpFTNVV2PVkhwiENFimAedsJS/ujC6w7DrG9XHZmxYeIVq2g\njFXXK3rHLTqAaqWpH7PiIEzePCMZ7OLc1Es+6NVmWUofjZRp4eR1HwqR4CVszz+v\npWOhmmAQM0rYSHZslJORVqlv\n-----END PRIVATE KEY-----\n",
+  "client_email": "traductorcartapokemon@cartaspokemon.iam.gserviceaccount.com",
+  "client_id": "100511893585776597991",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/traductorcartapokemon%40cartaspokemon.iam.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

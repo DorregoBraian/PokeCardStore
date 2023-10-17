@@ -1,0 +1,72 @@
+:root {
+    --MainColorOrange: rgb(238, 131, 41);
+    --SecundaryColorRed: rgb(230, 65, 16);
+    --SecundaryColorDarkRed: rgb(205, 82, 65);
+    --SecundaryColorBlue: rgb(8, 65, 82);
+    --SecundaryColorYellow: rgb(238, 222, 123);
+    --SecundaryColorLightBlue: rgb(32, 115, 148);
+
+    --backgroundMain: rgb(235, 235, 235);
+    --backgroundCards: rgb(255, 255, 255);
+}
+
+body {
+    background-color: var(--backgroundMain);
+
+}
+
+/* ------------------- Header ----------------------------*/
+header {
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    border-radius: 8%;
+    border: solid black;
+    background-color: var(--MainColorOrange);
+}
+
+nav {
+    width: 30%;
+    text-align: center;
+    margin-top: 1%;
+
+}
+
+a {
+    margin-right: 2%;
+    text-decoration: none;
+    font-size: 130%;
+
+}
+
+#titulo {
+    margin-left: 15%;
+}
+
+/* ------------------- Footer ----------------------------*/
+footer {
+    position: absolute;
+    width: 100%;
+    border-radius: 5%;
+    border: solid black;
+    background-color: var(--MainColorOrange);
+}
+
+#footer-redes {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2%;
+}
+
+#footer-redes article {
+    text-align: center;
+}
+
+#footer-links article {
+    display: grid;
+    width: 15%;
+    text-align:center;
+} 
+#footer-links a{
+    margin-top: 5%;
+}
