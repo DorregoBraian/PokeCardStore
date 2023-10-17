@@ -77,19 +77,19 @@ export const Inicio = () => { //html
     <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="/Img/carrusel 1.webp" class="d-block w-100" alt="...">
+                    <img src="./Img/carrusel 1.webp" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/Img/carrusel 3.jpg" class="d-block w-100" alt="...">
+                    <img src="./Img/carrusel 3.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/Img/carrusel 4.jpg" class="d-block w-100" alt="...">
+                    <img src="./Img/carrusel 4.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/Img/carrusel 5.jpg" class="d-block w-100" alt="...">
+                    <img src="./Img/carrusel 5.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="/Img/carrusel 6.png" class="d-block w-100" alt="...">
+                    <img src="./Img/carrusel 6.png" class="d-block w-100" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
@@ -132,11 +132,11 @@ export const Pokemon = (nombre, tipo, region, habilidad, item, game, pelicula) =
             <button>Añadir al Carrito</button>
             <div class="div-botones2">
                 <div id="div-favorito" >
-                    <img id="corazon" src="../Img/corazon-off.png" alt="corazon">
+                    <img id="corazon" src="./Img/corazon-off.png" alt="corazon">
                     <a id="favorito" href="#" rel="noopener noreferrer">Agregar a Favoritos</a>
                 </div>
                 <div id="div-compartir">
-                    <img src="../Img/compartir.png" alt="compartir">
+                    <img src="./Img/compartir.png" alt="compartir">
                     <a href="" rel="noopener noreferrer">Compartir</a>
                 </div>
             </div>
