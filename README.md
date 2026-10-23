@@ -44,7 +44,7 @@ El proyecto fue pensado como práctica de frontend: manipulación del DOM, consu
 ### Detalle del Pokémon
 - Nombre, tipo, región, habilidad, objeto que puede llevar, juegos y películas.
 - Botones de **Comprar ahora** y **Añadir al carrito** (parte visual del prototipo).
-- Botón para agregar o quitar de favoritos.
+- Botón para agregar a favoritos.
 - Botón para compartir.
 
 ### Favoritos
